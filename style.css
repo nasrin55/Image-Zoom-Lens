@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-container{
+    width: 600px;
+    position: absolute;
+}
+.img-container img{
+    max-width: 600px;
+    max-height: 600px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+.lens{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    cursor: none;
+    display: none;
+}
